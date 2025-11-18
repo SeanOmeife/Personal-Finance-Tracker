@@ -8,16 +8,16 @@ import java.util.Objects;
  * - call-by-value concepts
  */
 
- public final class money {
+ public final class Money {
     private final BigDecimal amount;
     private final String currency;
 
-    public money(BigDecimal amount, String currency){
+    public Money(BigDecimal amount, String currency){
         this.amount = amount == null ? BigDecimal.ZERO :amount;
         this.currency = currency == null ? "GBP" : currency;
     }
     
-    public money(String amount, String currency){
+    public Money(String amount, String currency){
         this(new BigDecimal(amount), currency);
     }
 
@@ -29,11 +29,11 @@ import java.util.Objects;
         return currency;
     }
 
-    public money add(money other) {
+    public Money add(Money other) {
         if (!Objects.equals(currency, other.currency())){
             throw new IllegalArgumentException("Currency mismatch");
         }
-        return new money(this.amount.add(other.amount()), currency);
+        return new Money(this.amount.add(other.amount()), currency);
     }
 
     @Override

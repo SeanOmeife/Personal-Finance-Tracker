@@ -1,4 +1,4 @@
-public enum category {
+public enum Category {
     FOOD, RENT, TRANSPORT, ENTERTAINMENT, UTILITIES, SALARY, MISC
 }
 
