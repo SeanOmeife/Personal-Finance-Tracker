@@ -34,7 +34,7 @@ public non-sealed abstract class BaseTransaction implements Entry{
     public String id() {
         return id;
     }
-    public String descripton() {
+    public String description() {
         return description;
     }
     public Money amount() {
