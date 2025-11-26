@@ -1,3 +1,4 @@
+package main.java.dev.pennywise.repo;
 import finance_tracker.model.TransactionRecord;
 
 import java.util.ArrayList;

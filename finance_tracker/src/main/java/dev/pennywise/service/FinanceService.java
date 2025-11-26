@@ -1,3 +1,4 @@
+package main.java.dev.pennywise.service;
 // Import other classes
 
 import java.time.LocalDate;

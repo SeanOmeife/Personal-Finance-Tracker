@@ -1,3 +1,4 @@
+package main.java.dev.pennywise.util;
 //  dont forget to Import class file
 
 import java.util.Scanner;
