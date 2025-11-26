@@ -1,3 +1,6 @@
+package main.java.dev.pennywise.model;
+
+
 /*
  * Sealed interface to demonstrate sealed classes/interfaces.
  * It permits the abstract BaseTransaction which is non-sealed,

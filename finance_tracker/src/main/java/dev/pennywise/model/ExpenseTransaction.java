@@ -1,3 +1,5 @@
+package main.java.dev.pennywise.model;
+
 public final class ExpenseTransaction extends BaseTransaction{
     public ExpenseTransaction(Money amount,Category category) {
         this("AUTO", "Expense", amount, category, java.time.LocalDate.now()); // demonstrates this()

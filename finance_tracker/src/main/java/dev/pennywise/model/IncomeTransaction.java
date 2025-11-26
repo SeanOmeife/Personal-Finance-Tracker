@@ -1,3 +1,5 @@
+package main.java.dev.pennywise.model;
+
 /*
  * Concrete subclass demonstrating:
  * - calling super(...) (super() in constructor)

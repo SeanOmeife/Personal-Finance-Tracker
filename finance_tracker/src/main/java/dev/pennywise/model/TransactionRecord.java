@@ -1,3 +1,5 @@
+package main.java.dev.pennywise.model;
+
 import java.time.LocalDate;
 
 /*

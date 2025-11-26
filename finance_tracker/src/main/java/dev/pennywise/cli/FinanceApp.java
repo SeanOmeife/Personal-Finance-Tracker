@@ -1,6 +1,10 @@
 package main.java.dev.pennywise.cli;
-// import class files
 
+import dev.pennywise.model.*;
+import dev.pennywise.service.FinanceService;
+import dev.pennywise.repo.TransactionRepository;
+import dev.pennywise.report.Report;
+import dev.pennywise.util.ConsoleUtils;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
